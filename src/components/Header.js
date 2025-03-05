@@ -88,20 +88,6 @@ const Header = () => {
               )}
             </li>
             <li><Link href="/contact">Nos Contacts</Link></li>
-            <li className="relative">
-              <button onClick={() => setShowPagesMenu(!showPagesMenu)}
-                className="flex items-center hover:text-yellow-400 focus:outline-none">
-                Pages <HiChevronDown className="ml-1" />
-              </button>
-              {showPagesMenu && (
-                <ul className="absolute top-full mt-2 left-0 bg-white text-black rounded shadow-lg py-2 z-50 min-w-max px-4">
-                  <li className="mb-2"><Link href="#page1" className="block px-4 py-2 hover:bg-gray-100 rounded">Notre Équipe</Link></li>
-                  <li className="mb-2"><Link href="#page2" className="block px-4 py-2 hover:bg-gray-100 rounded">Centre d&apos;aide</Link></li>
-                  <li className="mb-2"><Link href="#page3" className="block px-4 py-2 hover:bg-gray-100 rounded">Carrières</Link></li>
-                  <li className="mb-2"><Link href="#page4" className="block px-4 py-2 hover:bg-gray-100 rounded">Blog</Link></li>
-                </ul>
-              )}
-            </li>
           </ul>
 
           {/* Menu Hamburger (Mobile) */}
@@ -141,11 +127,6 @@ const Header = () => {
             <li>
               <Link href="/contact" className="block p-2 hover:bg-gray-700 text-white transition duration-300" onClick={() => setMenuOpen(false)}>
                 Nos Contacts
-              </Link>
-            </li>
-            <li>
-              <Link href="#page1" className="block p-2 hover:bg-gray-700 text-white transition duration-300" onClick={() => setMenuOpen(false)}>
-                Notre Équipe
               </Link>
             </li>
             <li>

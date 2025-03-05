@@ -12,7 +12,7 @@ function HeroFindPark() {
           alt="Parking"
           layout="fill"
           objectFit="cover"
-          className="opacity-30"
+          className="opacity-50"
         />
       </div>
 

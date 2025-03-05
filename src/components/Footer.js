@@ -45,7 +45,7 @@ const Footer = () => {
             </li>
             <li>
               <Link href="#" className="hover:underline">
-                Paiement d'entreprise
+                Paiement d&apos;entreprise
               </Link>
             </li>
             <li>

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const ContactSection = () => {
   return (
-    <section className="relative h-[500px]">
+    <section className="relative py-6">
       {/* Background image */}
       <div className="absolute inset-0 z-0">
         <Image
