@@ -11,13 +11,7 @@ const DownloadSection = () => {
         {/* Vidéo explicative */}
         <div className="relative">
           <div className="aspect-w-16 aspect-h-9">
-            <iframe
-              className="w-full h-full rounded-lg shadow-lg"
-              src="https://www.youtube.com/embed/example_video_id" // Remplacez par l'ID réel de votre vidéo
-              title="Vidéo explicative"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/riCGXgi1aMY?si=q8EAbF5lR82BRLeV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className="rounded-xl"></iframe>
           </div>
         </div>
 
@@ -38,7 +32,7 @@ const DownloadSection = () => {
           <div className="flex justify-center md:justify-start gap-4">
             {/* Bouton Google Play */}
             <Link
-              href="#"
+              href="https://play.google.com/store/apps/details?id=com.cpspark.lipopo&hl=fr"
               className="inline-flex items-center bg-black text-white px-4 py-2 rounded-lg shadow-lg hover:bg-gray-800 transition"
               aria-label="Télécharger sur Google Play"
             >
@@ -52,7 +46,7 @@ const DownloadSection = () => {
 
             {/* Bouton App Store */}
             <Link
-              href="#"
+              href=""
               className="inline-flex items-center bg-black text-white px-4 py-2 rounded-lg shadow-lg hover:bg-gray-800 transition"
               aria-label="Télécharger sur l'App Store"
             >

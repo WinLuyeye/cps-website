@@ -11,12 +11,13 @@ const WhyChooseUsSection = () => {
             Pourquoi nous choisir
           </h3>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 leading-tight mb-6">
-            Solution intelligente pour <br /> parquer son véhicule.
+            Une solution intelligente pour se garer sans stress.
           </h2>
           <p className="text-gray-600 mb-8">
-            Tincidunt morbi penatibus non ridiculus commodo consectetur faucibus.
-            Malesuada sociosqu platea phasellus pharetra consequat ultrices lacus
-            nunc praesent pulvinar litora.
+            Grâce à FindPark, trouvez facilement une place de parking, payez
+            uniquement ce que vous consommez, et gérez tout depuis votre
+            smartphone. Plus besoin de tourner en rond ou de stresser pour des
+            paiements imprévus.
           </p>
           <div className="space-y-6">
             {/* Élément 1 */}
@@ -25,10 +26,13 @@ const WhyChooseUsSection = () => {
                 <span className="text-white text-lg font-bold">✓</span>
               </div>
               <div>
-                <h4 className="text-lg font-bold text-gray-800">Facile à installer</h4>
+                <h4 className="text-lg font-bold text-gray-800">
+                  Facile à installer
+                </h4>
                 <p className="text-gray-600">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-                  luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                  Téléchargez l’application en quelques clics et commencez à
+                  profiter d’une expérience de stationnement simplifiée. Une
+                  interface intuitive, accessible à tous les conducteurs.
                 </p>
               </div>
             </div>
@@ -38,10 +42,13 @@ const WhyChooseUsSection = () => {
                 <span className="text-white text-lg font-bold">✓</span>
               </div>
               <div>
-                <h4 className="text-lg font-bold text-gray-800">Transactions sécurisées</h4>
+                <h4 className="text-lg font-bold text-gray-800">
+                  Transactions sécurisées
+                </h4>
                 <p className="text-gray-600">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-                  luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                  Payez votre stationnement directement via l’application avec
+                  des méthodes de paiement fiables et cryptées. Vos données sont
+                  protégées à chaque instant.
                 </p>
               </div>
             </div>
@@ -51,10 +58,13 @@ const WhyChooseUsSection = () => {
                 <span className="text-white text-lg font-bold">✓</span>
               </div>
               <div>
-                <h4 className="text-lg font-bold text-gray-800">Assistance 24/7J</h4>
+                <h4 className="text-lg font-bold text-gray-800">
+                  Assistance 24/7J
+                </h4>
                 <p className="text-gray-600">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-                  luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                  Notre support client est toujours à votre écoute, que ce soit
+                  pour un problème technique, une question ou une réclamation.
+                  Nous sommes là pour vous accompagner.
                 </p>
               </div>
             </div>
@@ -64,9 +74,12 @@ const WhyChooseUsSection = () => {
         {/* Image */}
         <div className="relative">
           {/* <div className="absolute bg-gradient-to-tr from-blue-300 to-blue-500 rounded-full w-96 h-96 -top-16 -right-16"></div> */}
-          <img
-            src="/mockup-phone.png" // Remplacez par le chemin de votre image
+          {/* <div className="absolute bg-gradient-to-tr from-blue-300 to-blue-500 rounded-full w-96 h-96 -top-16 -right-16"></div> */}
+          <Image
+            src="/mockup-phone.png" // Placez l'image dans le dossier /public
             alt="Mockup App FindPark"
+            width={400} // Ajustez selon la taille souhaitée
+            height={400}
             className="relative z-10"
           />
         </div>
