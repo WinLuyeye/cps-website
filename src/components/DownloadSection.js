@@ -24,17 +24,17 @@ const DownloadSection = () => {
         {/* Texte et boutons */}
         <div className="text-center md:text-left">
           <h2 className="text-3xl font-bold mb-4">Téléchargez FindPark</h2>
-          <p className="text-lg mb-6">
+          <div className="text-lg mb-6">
             Vous pourrez :
             <ul className="list-disc list-inside mt-2">
-              <li>Vérifier l'état de votre compte</li>
+              <li>Vérifier l&apos;état de votre compte</li>
               <li>Recharger des unités de stationnement</li>
-              <li>Accéder à l'historique de vos transactions</li>
+              <li>Accéder à l&apos;historique de vos transactions</li>
               <li>
                 Transférer des unités et payer le stationnement pour vos proches
               </li>
             </ul>
-          </p>
+          </div>
           <div className="flex justify-center md:justify-start gap-4">
             {/* Bouton Google Play */}
             <Link

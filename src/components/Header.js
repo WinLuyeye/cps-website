@@ -47,7 +47,7 @@ const Header = () => {
         </div>
         <div className="flex items-center space-x-4 mt-2 lg:mt-0">
           <span>Suivez-nous :</span>
-          <Link href="#" className="hover:text-blue-600">
+          <Link href="https://www.facebook.com/CongoParking/" className="hover:text-blue-600">
             <FaFacebookF size={18} />
           </Link>
           <Link href="#" className="hover:text-blue-400">
@@ -82,8 +82,8 @@ const Header = () => {
               </button>
               {showSolutionsMenu && (
                 <ul className="absolute top-full mt-2 left-0 bg-white text-black rounded shadow-lg py-2 z-50 min-w-max px-4">
-                  <li className="mb-2"><Link href="/solutions/findPark" className="block px-4 py-2 hover:bg-gray-100 rounded">FINDPARK</Link></li>
-                  <li className="mb-2"><Link href="#solution2" className="block px-4 py-2 hover:bg-gray-100 rounded">DEPAN&apos;EXPRESS</Link></li>
+                  <li className="mb-2"><Link href="https://play.google.com/store/apps/details?id=com.cpspark.lipopo&hl=fr" className="block px-4 py-2 hover:bg-gray-100 rounded">FINDPARK</Link></li>
+                  <li className="mb-2"><Link href="" className="block px-4 py-2 hover:bg-gray-100 rounded">DEPAN&apos;EXPRESS</Link></li>
                 </ul>
               )}
             </li>

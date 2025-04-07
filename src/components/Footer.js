@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
 
         {/* Blog Section */}
-        <div>
+        {/* <div>
           <h3 className="text-lg font-semibold mb-4">Blog</h3>
           <ul className="space-y-2">
             <li>
@@ -59,30 +59,20 @@ const Footer = () => {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         {/* Assistance Section */}
         <div>
-          <h3 className="text-lg font-semibold mb-4">Assistance</h3>
+          <h3 className="text-lg font-semibold mb-4">A propos</h3>
           <ul className="space-y-2">
             <li>
-              <Link href="#" className="hover:underline">
-                Centre d’aide
+              <Link href="/solutions/findPark" className="hover:underline">
+                FINDPARK
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:underline">
-                Mon compte
-              </Link>
-            </li>
-            <li>
-              <Link href="#" className="hover:underline">
-                Assistance par ticket
-              </Link>
-            </li>
-            <li>
-              <Link href="#" className="hover:underline">
-                Contactez-nous
+              <Link href="/solutions/findPark" className="hover:underline">
+                DEPAN&apos;EXPRESS
               </Link>
             </li>
           </ul>
@@ -112,20 +102,17 @@ const Footer = () => {
 
       {/* Social Media Links */}
       <div className="flex justify-center space-x-6 mt-8">
-        <Link href="#" className="text-white hover:text-blue-500">
+        <Link href="https://www.facebook.com/CongoParking/" className="text-white hover:text-blue-500">
           <FaFacebookF size={24} />
         </Link>
-        <Link href="#" className="text-white hover:text-blue-400">
+        <Link href="https://x.com/congoparking" className="text-white hover:text-blue-400">
           <FaTwitter size={24} />
         </Link>
         <Link href="#" className="text-white hover:text-pink-500">
           <FaInstagram size={24} />
         </Link>
-        <Link href="#" className="text-white hover:text-blue-700">
+        <Link href="https://www.linkedin.com/company/congo-parking/" className="text-white hover:text-blue-700">
           <FaLinkedinIn size={24} />
-        </Link>
-        <Link href="#" className="text-white hover:text-red-500">
-          <FaYoutube size={24} />
         </Link>
       </div>
 
