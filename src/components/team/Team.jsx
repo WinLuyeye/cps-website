@@ -2,7 +2,6 @@
 // import React from "react";
 // import Image from "next/image";
 
-
 // const TeamSection = () => {
 //   const teamMembers = [
 //     {
@@ -285,11 +284,13 @@ const TeamSection = () => {
 
       <div className="container mx-auto text-center px-4">
         <h1 className="text-4xl font-bold text-gray-800 mb-4">
-          Le travail d'équipe rend le rêve possible.
+          🤝 Le travail d'équipe rend le rêve possible
         </h1>
         <p className="text-gray-600 mb-12">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          Chez FindPark, nous croyons que l'unité et la collaboration
+          transforment les défis en réussites. Ensemble, nous réalisons des
+          projets ambitieux et offrons des solutions innovantes qui font la
+          différence.{" "}
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -304,7 +305,9 @@ const TeamSection = () => {
                 className="w-full h-60 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-lg font-bold text-gray-800">{member.name}</h3>
+                <h3 className="text-lg font-bold text-gray-800">
+                  {member.name}
+                </h3>
                 <p className="text-gray-500 mb-4">{member.role}</p>
                 <div className="flex justify-center gap-4">
                   <a
