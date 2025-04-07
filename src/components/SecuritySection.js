@@ -24,9 +24,9 @@ const SecurityComponent = () => {
                 <FaVideo />
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-blue-900">Surveillance 24/7 avec CCTV</h3>
+                <h3 className="text-lg font-semibold text-blue-900">📹 Surveillance 24/7 avec CCTV</h3>
                 <p className="text-gray-600">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                Grâce à un système de caméras de surveillance de dernière génération, votre véhicule est constamment surveillé, jour et nuit. Nous garantissons un environnement sécurisé avec une surveillance continue pour éviter tout risque.
                 </p>
               </div>
             </div>
@@ -36,9 +36,9 @@ const SecurityComponent = () => {
                 <FaLock />
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-blue-900">Accès sécurisé via contrôle d’accès</h3>
+                <h3 className="text-lg font-semibold text-blue-900">🔒 Accès sécurisé via contrôle d’accès</h3>
                 <p className="text-gray-600">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                L&apos;accès à nos parkings est protégé par des systèmes de contrôle d&apos;accès avancés. Seules les personnes autorisées peuvent entrer, offrant ainsi une sécurité maximale pour vos biens.
                 </p>
               </div>
             </div>
@@ -48,9 +48,9 @@ const SecurityComponent = () => {
                 <FaTools />
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-blue-900">Entretien régulier des installations</h3>
+                <h3 className="text-lg font-semibold text-blue-900">🛠️ Entretien régulier des installations</h3>
                 <p className="text-gray-600">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                Nous nous assurons que toutes nos installations soient régulièrement entretenues et mises à jour pour garantir des conditions de sécurité optimales. L’entretien préventif est une de nos priorités afin d’offrir une expérience sans tracas.
                 </p>
               </div>
             </div>
