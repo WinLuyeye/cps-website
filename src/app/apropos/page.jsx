@@ -8,15 +8,15 @@ import StatisticsSection from "@/src/components/StatisticsSection";
 import TeamSection from "@/src/components/team/Team";
 
 export default function Apropos() {
-    return (
-        <>
-            <HeroSection />
-            <ExperienceSection />
-            <TrustSection />
-            <ValuesAndHistory />
-            <ContactSection/>
-            <StatisticsSection/>
-            <TeamSection/>
-        </>
-    );
+  return (
+    <>
+      <HeroSection />
+      <ExperienceSection />
+      <TrustSection />
+      <ValuesAndHistory />
+      <ContactSection />
+      <StatisticsSection />
+      <TeamSection />
+    </>
+  );
 }
