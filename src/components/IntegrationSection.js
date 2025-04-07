@@ -4,24 +4,34 @@ import Image from "next/image";
 const IntegrationSection = () => {
   const features = [
     {
+      icon: "📊",
       title: "État de compte",
       description:
-        "Lorem imperdiet ut aptent felis molestie pellentesque euismod ex turpis odio nascetur sem massa.",
+        "Consultez à tout moment le solde de vos unités de stationnement, vos derniers paiements, et les détails de vos consommations. Une transparence totale à portée de main.",
     },
     {
+      icon: "⚡",
       title: "Recharge Unité",
       description:
-        "Lorem imperdiet ut aptent felis molestie pellentesque euismod ex turpis odio nascetur sem massa.",
+        "Ajoutez facilement des unités de stationnement via carte, mobile money ou carte bancaire. Le tout, en quelques secondes, où que vous soyez.Plus besoin de chercher un point de vente.",
     },
     {
+      icon: "📱",
       title: "Historique transactions",
       description:
-        "Lorem imperdiet ut aptent felis molestie pellentesque euismod ex turpis odio nascetur sem massa.",
+        "Visualisez en temps réel toutes vos fonctionnalités sur notre application intuitive. Naviguez aisément entre l’historique, la recharge, et les options de transfert.Un design épuré pour une meilleure prise en main.",
     },
     {
+      icon: "📑",
       title: "Transfert unités",
       description:
-        "Lorem imperdiet ut aptent felis molestie pellentesque euismod ex turpis odio nascetur sem massa.",
+        "Gardez un œil sur toutes vos activités : paiements, recharges, transferts. Chaque mouvement est enregistré pour un suivi précis.Vous contrôlez tout, en toute simplicité.",
+    },
+    {
+      icon: "🔁",
+      title: "Transfert unités",
+      description:
+        "Partagez vos unités de stationnement avec vos proches ou collègues en un clic. Un outil pratique pour les familles et les professionnels.",
     },
   ];
 
@@ -32,8 +42,12 @@ const IntegrationSection = () => {
           Accès facile et intégrations
         </h2>
         <p className="text-gray-600 text-lg mb-12">
-        Profitez d'une expérience fluide grâce à nos applications, conçues pour une accessibilité optimale et une 
-        intégration parfaite dans votre quotidien. Simplifiez vos démarches en un seul clic ! 🚀
+          Profitez d’une expérience fluide grâce à nos applications mobiles et
+          web, pensées pour une accessibilité optimale. Gagnez du temps, suivez
+          vos opérations et gérez votre stationnement en toute simplicité.
+          <span className="font-bold ">
+            Une seule app, une infinité de possibilités. 🚀
+          </span>
         </p>
         <div className="flex flex-col lg:flex-row items-center gap-12">
           {/* Cartes à gauche */}
@@ -44,7 +58,7 @@ const IntegrationSection = () => {
                 className="bg-white p-6 rounded-lg shadow-md text-left"
               >
                 <div className="flex items-center gap-4">
-                  <div className="bg-blue-500 h-6 w-6 rounded-full"></div>
+                  <div className="h-6 w-6 rounded-full">{feature.icon}</div>
                   <h3 className="text-lg font-bold text-gray-800">
                     {feature.title}
                   </h3>
@@ -71,7 +85,7 @@ const IntegrationSection = () => {
                 className="bg-white p-6 rounded-lg shadow-md text-left"
               >
                 <div className="flex items-center gap-4">
-                  <div className="bg-blue-500 h-6 w-6 rounded-full"></div>
+                  <div className="h-6 w-6 rounded-full">{feature.icon}</div>
                   <h3 className="text-lg font-bold text-gray-800">
                     {feature.title}
                   </h3>
